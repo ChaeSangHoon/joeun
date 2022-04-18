@@ -1,3 +1,42 @@
-#logo_img{
-    max-height: 25px;
+#logo_img {
+  max-height: 25px;
+}
+@font-face {
+  font-family: "S-CoreDream-6Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "S-CoreDream-5Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "S-CoreDream-4Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: "S-CoreDream-6Bold";
+}
+h2,
+a {
+  font-family: "S-CoreDream-5Medium";
+}
+p {
+  font-family: "S-CoreDream-4Regular";
+}
+
+.a_num {
+  font-family: "S-CoreDream-4Regular";
+  color: #212529;
+  text-decoration: none;
+  outline: none;
 }
